@@ -1,0 +1,21 @@
+.sidebar-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 362px;
+  height: 800px;
+  left: 0px;
+  height: fit-content;
+  top: 0px;
+  align-items: center;
+  background: #ebebeb;
+
+  .logo{
+    width: 173px;
+    height: 70px;
+    left: 49px;
+    top: 22px;
+    margin-top: 20px;
+    
+  }
+}
