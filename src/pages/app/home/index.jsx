@@ -1,11 +1,12 @@
 import React from 'react'
+import Collection from '../../../components/image-collections/image';
 
-const Home = () => {
+const HomePage = () => {
   return (
-    <div>Home
-      {/* <Collection/> */}
+    <div>
+      <Collection/>
     </div>
   )
 }
 
-export default Home
+export default HomePage;

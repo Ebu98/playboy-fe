@@ -10,7 +10,7 @@ const Register = () => {
       <img src={image} alt=""/>
       <div className="register">
       <h4 >Register your account.</h4>
-      <span>Fill the details to submit register account.</span>
+      <span className="span">Fill the details to submit register account.</span>
       
       <Formik
         initialValues={{

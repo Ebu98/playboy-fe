@@ -1,0 +1,23 @@
+.background-image{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 80px;
+
+    img{
+        height: 40vh;
+        width: 20vw;
+        margin: 55px 10px 20px 50px;
+        position: absolute;
+    }
+    
+    .title{
+        color: black;
+        margin: 0px 0px 50px 50px;
+    }
+    .subtitle{
+        color: black;
+        margin: 310px 60px 40px 45px;
+    }
+}
+
