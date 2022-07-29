@@ -1,5 +1,4 @@
 import React from "react";
-// import "../library.scss";
 import "../../pages/app/library/library.scss"
 
 function Recent({ title, image }) {

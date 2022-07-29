@@ -2,7 +2,7 @@ import { Formik, Form } from "formik";
 import React from "react";
 import InputField from "../../../components/inputs/InputField";
 import image from "../../../assests/icons/Sea.png"
-import "../../../components/inputs/inputField.scss";
+import "./register.scss"
 
 const Register = () => {
   return (

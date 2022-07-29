@@ -1,7 +1,7 @@
 import React from "react";
 import "./collections.scss";
 
-const ImageCollection = ({ title, imageUrl }) => {
+const HomeCollection = ({ title, imageUrl }) => {
   return (
     <div className="background-image">
       <h2 className="title">{title}</h2>
@@ -11,4 +11,4 @@ const ImageCollection = ({ title, imageUrl }) => {
   );
 };
 
-export default ImageCollection;
+export default HomeCollection;

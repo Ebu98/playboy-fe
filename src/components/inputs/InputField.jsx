@@ -1,5 +1,6 @@
 import React from "react";
 import { Field } from "formik";
+import './inputField.scss'
 
 const InputField = ({ errors, name, touched, ...rest }) => {
   return (

@@ -1,67 +1,20 @@
-.register-form {
+.input-field{
   display: flex;
-  height: 100vh;
-
-  img {
-    width: 60%;
-  }
-
-  .input-field .input input {
+  .input input {
     font-size: 14px;
     padding: 10px 20px 10px 15px;
-    width: 60%;
-    margin-left: 20%;
-    margin: 20px 0 0 0;
-    border-radius: 2px;
-  }
-  .custom-button {
-    min-width: 380px;
-    width: auto;
-    height: 50px;
-    letter-spacing: 0.5px;
-    line-height: 50px;
-    padding: 0 35px 0 35px;
-    font-size: 15px;
-    background-color: blue;
-    color: white;
-    text-transform: uppercase;
-    font-family: "Open Sans Condensed";
-    font-weight: bolder;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 20px 50px 50px 0;
+    width: 24vw;
+    // width: 456px;
+    // height: 43px;
 
-    &:hover {
-      background-color: white;
-      color: black;
-      border: 1px solid black;
-    }
-  }
-  .register {
-    width: 50%;
-    margin-left: 200px;
-    margin-top: 120px;
-  }
-  .container{
-      display: flex;
-      font-size: 12px;
-      .navigate-login{
-        display: flex;
-        width: 31px;
-        height: 15px;
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
-        margin-left: 5px;
-        line-height: 15px;
-        text-align: right;
-        color: #3665C5;
-    }
+    // margin-left: 20%;
+    border: 1px solid #A2A2A6;
+    margin: 20px 0 0 0;
+    border-radius: 4px;
   }
   
 }
+
 
 @media screen and(max-width: 667px){
   .register-form {
@@ -128,11 +81,11 @@
 @media screen and(max-width: 320px) {
   .register-form{
     img {
-      width: 100%;
-      height: 150px;
+      width: 190%;
+      height: 250px;
     }
     .input-field .input input {
-      width: 140%;
+      width: 140vw;
       margin-left: -180px;
     }
   .custom-button{
@@ -163,16 +116,18 @@
 }
 @media screen and (max-width: 360px){
   .register-form{
+    // position:fixed;
     img {
       width: 100%;
       height: 150px;
+      
     }
     .input-field .input input {
-      width: 150%;
-      margin-left: -180px;
+      width: 70vw;
+      margin-left: -170px;
     }
   .custom-button{
-    margin-left: -180px;
+    margin-left: -170px;
     min-width: 290px;
     &:hover {
       background-color: white;
@@ -181,4 +136,42 @@
     }
   }
 }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .register-form {
+    display: block;
+      img {
+        width: 110%;
+        height: 250px;
+        
+      }
+      .input-field .input input {
+        width: 70vw;
+        margin-left: -100px;
+      }
+    .custom-button{
+      margin-left: -100px;
+      min-width: 76vw;
+      &:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+      }
+    }
+    .span{
+      white-space: nowrap;
+      margin-left: 150px;
+    }
+    .register{
+      margin-top: -10px;
+      h4{
+        margin-left: -100px;
+      }
+      span{
+        white-space: nowrap;
+        margin-left: -100px;
+        margin-top: -30px;
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Collection from '../../../components/image-collections/image';
+import Collection from '../../../components/imageCollections/collection';
 
 const HomePage = () => {
   return (
