@@ -10,6 +10,7 @@ const App = () => {
     <div className="app">
       <SidebarButton />
       <main>
+      
         <Navbar />
         <Outlet />
         <Routes>

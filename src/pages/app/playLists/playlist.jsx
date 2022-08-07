@@ -1,6 +1,6 @@
 import React from 'react'
-import Afrobeat from '../../../components/playlistCollections/afrobeat'
-import OldSkul from '../../../components/playlistCollections/oldskool'
+import Afrobeat from '../../../components/playlistCollections/afroBeat'
+import OldSkul from '../../../components/playlistCollections/oldSkool'
 import Rap from '../../../components/playlistCollections/rap'
 import StreetJam from '../../../components/playlistCollections/streetJams'
 

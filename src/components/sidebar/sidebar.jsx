@@ -20,28 +20,27 @@ function Sidebar() {
   return (
     <div className="sidebar-container">
         <img className="logo" src={logo} alt=""/>
-        <div>
-        <Link to=""><img src={home} alt=""/> Home</Link >
-        <Link to="#"><img src={discover} alt=""/> Discover</Link >
-        <Link to="#"><img src={radio} alt=""/>  Radio</Link >
-        <Link to="#"><img src={album} alt=""/>  Albums</Link >
-        <Link to="#"><img src={podcast} alt=""/>  Podcast</Link >
+        <div className="home-link">
+        <h4><Link to=""><img src={home} alt=""/> </Link >Home</h4>
+        <h4><Link to="#"><img src={discover} alt=""/></Link > Discover</h4>
+        <h4><Link to="#"><img src={radio} alt=""/> </Link > Radio</h4>
+        <h4><Link to="#"><img src={album} alt=""/> </Link > Albums</h4>
+        <h4><Link to="#"><img src={podcast} alt=""/></Link >  Podcast</h4>
         </div>
-        <div className="library-container">
+        <div className="library-link">
         <h3>Library</h3>
-        <Link to=""><img src={recent} alt="" />  Recently Added</Link >
-        <Link to="#"><img src={favor} alt=""/>  Favorite Songs</Link >
-        <Link to={<FavoriteAlbums/>}><img src={albums} alt=""/>  Favorite Albums</Link>
-        <Link to="#"><img src={video} alt=""/>  Favorite Videos</Link >
-        <Link to="#"><img src={local} alt=""/>  Local Files</Link >
+        <h4><Link to=""><img src={recent} alt="" /></Link >  Recently Added</h4>
+        <h4><Link to="#"><img src={favor} alt=""/> </Link > Favorite Songs</h4>
+        <h4><Link to={<FavoriteAlbums/>}><img src={albums} alt=""/> </Link > Favorite Albums</h4>
+        <h4><Link to="#"><img src={video} alt=""/> </Link > Favorite Videos</h4>
+        <h4><Link to="#"><img src={local} alt=""/>  </Link >Local Files</h4>
         </div >
-        <div className="playlist-container">
+        <div className="playlist-link">
         <h3>Playlist</h3>
-        <Link to="#"><img src={photo} alt=""/> Afrobeats</Link >
-        <Link to="#"><img src={photo} alt=""/> OldSkool</Link >
-        <Link to="#"><img src={photo} alt=""/> Street Jamzs</Link>
-        <Link to="#"><img src={photo} alt=""/> Raps</Link>
-
+        <h4><Link to="#"><img src={photo} alt=""/> </Link >Afrobeats</h4>
+        <h4><Link to="#"><img src={photo} alt=""/> </Link >OldSkool</h4>
+        <h4><Link to="#"><img src={photo} alt=""/> </Link >Street Jamzs</h4>
+        <h4> <Link to="#"><img src={photo} alt=""/> </Link >Raps</h4>
         </div>
     </div>
   )

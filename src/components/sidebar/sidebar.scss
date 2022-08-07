@@ -2,20 +2,45 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 362px;
+  width: 200px;
   height: 800px;
   left: 0px;
-  height: fit-content;
   top: 0px;
-  align-items: center;
+  color: #000000;
+  padding: 50px;
   background: #ebebeb;
-
-  .logo{
+  .home-link {
+    display: block;
+    margin-right: 50px;
+    color: #000000;
+    h4{
+      display: flex;
+      gap:15px;
+    
+    }
+  }
+  
+  .library-link {
+    display: block;
+    h4{
+      display: flex;
+      gap:15px;
+    
+    }
+  } 
+  .playlist-link {
+    display: block;
+    margin-right: 50px;
+    h4{
+      display: flex;
+      gap:15px;
+    }
+  }
+  
+  .logo {
     width: 173px;
     height: 70px;
     left: 49px;
     top: 22px;
-    margin-top: 20px;
-    
   }
 }

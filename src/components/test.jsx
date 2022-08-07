@@ -10,14 +10,13 @@
 //     }
 //   return (
 //     <div>
-        
-        
+
 //     </div>
 //   )
 // }
 
 // export default Test
-import React, {useState,  useEffect} from "react"
+// import React, { useState, useEffect } from "react";
 // function Counter() {
 //     const [counter, setCounter] = useState(0)
 
@@ -48,26 +47,6 @@ import React, {useState,  useEffect} from "react"
 
 // console.log(result)
 
-// function FetchData() {
-//     const [data, setData]=useState()
-
-//     useEffect(() =>{
-//         fetch("http://localhost")
-//         .then((response) => response.json())
-//         .then((data) =>{ 
-//             setData(data);
-//             console.log(data)
-//         })
-//     },[])
-
-//     return(
-//         <div>
-//             <h3></h3>
-//         </div>
-//     )
-// }
-
-// export default FetchData;
 
 // function person(name,bod,) {
 //     this.name=name;
@@ -86,7 +65,6 @@ import React, {useState,  useEffect} from "react"
 // const name2 = new String('chuks');
 // console.log(name2)
 
-
 // function fetchData() {
 //     const [data, setData] = useState([]);
 //     const url = "http://"
@@ -100,25 +78,29 @@ import React, {useState,  useEffect} from "react"
 //         });
 //     }, [])
 
-
 // export default fetchData;
 
-function Timer() {
-    const [count, setCount] = useState(0);
-  
-    
-    useEffect(() => {
-        const increment = () => {
-            setCount(count => count + 1 );
-        }
-    setInterval(increment,1000);
-  }, []);
-    return(
-        <div style = {{ backgroundColor : count === 8 ? 'red' : 'blue', margin:"10px",width:'400px', padding:'20px'}}>
-            <p>I have render {count} times </p>
-        </div>
-      
-    )
-    
-  }
-  export default Timer;
+// function Timer() {
+//   const [count, setCount] = useState(0);
+
+//   useEffect(() => {
+//     const increment = () => {
+//       setCount((count) => count + 1);
+//     };
+//     setInterval(increment, 1000);
+//   }, []);
+//   return (
+//     <div
+//       style={{
+//         backgroundColor: count === 8 ? "red" : "blue",
+//         margin: "10px",
+//         width: "400px",
+//         padding: "20px",
+//       }}
+//     >
+//       <p>I have render {count} times </p>
+//     </div>
+//   );
+// }
+// export default Timer;
+

@@ -8,12 +8,13 @@ const Login = () => {
   return (
     <div className="login-form">
       <img src={image} alt="" />
+      
+
+      <div className="login">
       <div className="navigate-signup">
         <span>Don't have an account?</span>
         <h4>Signup</h4>
       </div>
-
-      <div className="login">
         <h4>Welcome.</h4>
         <span className="span">Login to continue.</span>
 
